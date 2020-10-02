@@ -27,4 +27,4 @@ U: 0
 ```
 
 ## Submission
-Push changes to Github and submit link to Canvas.
+Create a Repl.it repository from this repo and submit link.
