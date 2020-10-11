@@ -2,12 +2,13 @@
 
 ## Problem1.py
 
-Complete the code by creating functions
+Complete the code by creating functions. The purpose of functions is to avoid duplication of code, ensure that the same code is not used twice in your overall program.
+
 ### listSum(myList)
 Returns the sum (addition) total of the numbers in the list
 
 ### listAverage(myList)
-Returns the average value of the numbers in the list
+Returns the average value of the numbers in the list.
 
 
 ## Problem2.py
