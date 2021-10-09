@@ -8,9 +8,24 @@ def listSum(myList):
 
     return 0
 
+def listMax(myList):
+    """Returns the value of the largest element of a list"""
+
+    return 0
+
+def listMin(myList):
+    """Returns the value of the smallest element of a list"""
+
+    return 0
 
 def listAverage(myList):
     """Returns the average value of the numbers in the list"""
+
+    return 0
+
+def listAverageDropLowest(myList):
+    """Returns the average of a list but excludes the smallest value if __name__ == '__main__':
+        the list in the calculation"""
 
     return 0
 
@@ -21,6 +36,11 @@ def main():
     ave = listAverage(testList)
 
     print("The total of the list is %d and the average is %.2f" %(total, ave))
+
+    totalDropLow = listAverageDropLowest(testList)
+
+    print("The average is %.2f if we drop the lowest value." %(totalDropLow))
+
 
 if __name__ == '__main__':
     main()
