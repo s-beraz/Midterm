@@ -3,7 +3,7 @@
 ## Use of libraries
 For each of these problems, do not use external or built-in python libraries. For example, there is a function called sum() that takes the contents of a list and returns the sum. I don't want you to use that. I want you to make your own function that does that.
 
-Same is true for the vowel problem. Please do not use any "count the letters" functions you are able to find on the internet. You need to build a function using only the elements we have discussed in class to this point.
+Same is true for the vowel problem. Please do not use any "count the letters" functions you are able to find on the internet. You need to build a function using only the elements we have discussed in class to this point. You may use len() to determine the length of a string or list.
 
 Thanks!
 
@@ -14,14 +14,11 @@ Complete the code by creating functions. The purpose of functions is to avoid du
 ### listSum(myList)
 Returns the sum (addition) total of the numbers in the list
 
-
-
 ### listMax(myList)
 Returns the value of the largest element of a list
 
 ### listMin(myList)
 Returns the value of the smallest element of a list
-
 
 ### listAverage(myList)
 Returns the average value of the numbers in the list.
@@ -34,6 +31,7 @@ Returns the average of a list but excludes the smallest value the list in the ca
 - Input is a string from the user
 - Count the number of vowels in the string (A, E, I, O, U)
   - Watch out for upper/lowercase (E, e both count)
+- Your code should only count the vowels, do not track other letters.
 - Output results
 
 ### Sample run
@@ -47,4 +45,7 @@ U: 0
 ```
 
 ## Submission
-Create a Repl.it repository from this repo and submit link.
+- Add a commit message
+- Commit to GitHub
+- Sync work with Repo
+- Submit your repo link to Canvas
